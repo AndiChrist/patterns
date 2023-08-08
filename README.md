@@ -7,6 +7,7 @@ Eine kleie Sammlung von GoF-Entwurfsmustern
 - [Fabrikmethode (Factory method)](patterns/src/main/java/io/github/andichrist/creational/factory)
 - [Prototyp (Prototype)](patterns/src/main/java/io/github/andichrist/creational/prototype)
 - [Singleton (Singleton)](patterns/src/main/java/io/github/andichrist/creational/singleton)
+- [Multiton](patterns/src/main/java/io/github/andichrist/creational/multiton)
 
 ## Strukturmuster (structural design patterns)
 - [Klassenadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter)
