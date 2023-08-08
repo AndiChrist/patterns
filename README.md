@@ -1,2 +1,44 @@
-# patterns
-a collection of design patterns
+# Entwurfsmuster
+Eine kleie Sammlung von GoF-Entwurfsmustern
+
+## Erzeugungsmuster (creational patterns)
+- [Abstrake Fabrik (Abstract factory)](patterns/src/main/java/io/github/andichrist/creational/abstractFactory)
+- [Erbauer (Builder)](patterns/src/main/java/io/github/andichrist/creational/builder)
+- [Fabrikmethode (Factory method)](patterns/src/main/java/io/github/andichrist/creational/factory)
+- [Prototyp (Prototype)](patterns/src/main/java/io/github/andichrist/creational/prototype)
+- [Singleton (Singleton)](patterns/src/main/java/io/github/andichrist/creational/singleton)
+
+## Strukturmuster (structural design patterns)
+- [Klassenadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter)
+- [Objektadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter2)
+- [Brücke (Bridge pattern)](patterns/src/main/java/io/github/andichrist/structural/bridge)
+- [Dekorierer (Decorator)](patterns/src/main/java/io/github/andichrist/structural/decorator)
+- [Fassade (Facade)](patterns/src/main/java/io/github/andichrist/structural/facade)
+- [Fliegengewicht (Flyweight)](patterns/src/main/java/io/github/andichrist/structural/flyweight)
+- [Kompositum (Composite oder Whole-Part)](patterns/src/main/java/io/github/andichrist/structural/composite)
+- [Stellvertreter (Proxy)](patterns/src/main/java/io/github/andichrist/structural/proxy)
+
+## Verhaltensmuster (behavioral design patterns)
+- [Befehl (Command)](patterns/src/main/java/io/github/andichrist/behavioral/command)
+- [Beobachter (Observer)](patterns/src/main/java/io/github/andichrist/behavioral/observer)
+- [Besucher (Visitor)](patterns/src/main/java/io/github/andichrist/behavioral/visitor)
+- [Interpreter (Interpreter)](patterns/src/main/java/io/github/andichrist/behavioral/interpreter)
+- [Iterator (Iterator)](patterns/src/main/java/io/github/andichrist/behavioral/iterator)
+- [Memento (Memento)](patterns/src/main/java/io/github/andichrist/behavioral/memento)
+- [Schablonenmethode (Template method)](patterns/src/main/java/io/github/andichrist/behavioral/templateMethod)
+- [Strategie (Strategy)](patterns/src/main/java/io/github/andichrist/behavioral/strategy)
+- [Vermittler (Mediator)](patterns/src/main/java/io/github/andichrist/behavioral/mediator)
+- [Zustand (State)](patterns/src/main/java/io/github/andichrist/behavioral/state)
+- [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
+
+## Sonstige
+- [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)
+- [Dependency Injection](patterns/src/main/java/io/github/andichrist/other/dependencyInjection)
+- [Fluent Interface](patterns/src/main/java/io/github/andichrist/other/fluentInterface)
+- [Inversion of Control (IoC)](patterns/src/main/java/io/github/andichrist/other/inversionOfControl)
+- [Nullobjekt](patterns/src/main/java/io/github/andichrist/other/nullObject)
+- [Publish–subscribe](patterns/src/main/java/io/github/andichrist/other/observerObservable)
+- [Remote Command](patterns/src/main/java/io/github/andichrist/other/remotecommand)
+- [Repository](patterns/src/main/java/io/github/andichrist/other/repository)
+- [Service-Locator](patterns/src/main/java/io/github/andichrist/other/serviceLocator)
+- [Specification](patterns/src/main/java/io/github/andichrist/other/specification)

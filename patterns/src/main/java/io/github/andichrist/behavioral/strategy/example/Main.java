@@ -1,4 +1,4 @@
-package io.github.andichrist.other.policy;
+package io.github.andichrist.behavioral.strategy.example;
 
 /*
  Das Strategy-Muster, auch bekannt als Policy-Muster, ermöglicht es, Algorithmen in
