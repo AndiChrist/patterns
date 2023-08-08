@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Bean-Definition für den ConsoleLogger -->
+    <bean id="consoleLogger" class="io.github.andichrist.other.inversionOfControl.ConsoleLogger"/>
+
+    <!-- Bean-Definition für den FileLogger -->
+    <bean id="fileLogger" class="io.github.andichrist.other.inversionOfControl.FileLogger">
+        <constructor-arg value="app.log"/>
+    </bean>
+
+    <!-- Bean-Definition für die Application -->
+    <bean id="application" class="io.github.andichrist.other.inversionOfControl.Application">
+        <constructor-arg ref="consoleLogger"/> <!-- oder ref="fileLogger" für den FileLogger -->
+    </bean>
+
+</beans>

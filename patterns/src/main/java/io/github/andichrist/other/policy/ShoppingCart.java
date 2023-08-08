@@ -1,0 +1,14 @@
+package io.github.andichrist.other.policy;
+
+// Die Kontextklasse
+public class ShoppingCart {
+  private PaymentStrategy paymentStrategy;
+
+  public void setPaymentStrategy(PaymentStrategy paymentStrategy) {
+    this.paymentStrategy = paymentStrategy;
+  }
+
+  public void checkout(int amount) {
+    paymentStrategy.pay(amount);
+  }
+}
