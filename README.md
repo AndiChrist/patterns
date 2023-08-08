@@ -18,6 +18,7 @@ Eine kleie Sammlung von GoF-Entwurfsmustern
 - [Fliegengewicht (Flyweight)](patterns/src/main/java/io/github/andichrist/structural/flyweight)
 - [Kompositum (Composite oder Whole-Part)](patterns/src/main/java/io/github/andichrist/structural/composite)
 - [Stellvertreter (Proxy)](patterns/src/main/java/io/github/andichrist/structural/proxy)
+- [Container](patterns/src/main/java/io/github/andichrist/structural/container)
 
 ## Verhaltensmuster (behavioral design patterns)
 - [Befehl (Command)](patterns/src/main/java/io/github/andichrist/behavioral/command)
