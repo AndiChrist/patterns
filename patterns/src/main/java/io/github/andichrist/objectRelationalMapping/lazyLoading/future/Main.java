@@ -1,4 +1,4 @@
-package io.github.andichrist.other.lazyLoading.future;
+package io.github.andichrist.objectRelationalMapping.lazyLoading.future;
 
 /*
  Die Verwendung von Futures ist eine Möglichkeit, das Lazy Loading-Muster in Java zu

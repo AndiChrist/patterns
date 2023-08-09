@@ -1,4 +1,4 @@
-package io.github.andichrist.other.lazyLoading.future;
+package io.github.andichrist.objectRelationalMapping.lazyLoading.future;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;

@@ -33,6 +33,12 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - ⭐️ [Zustand (State)](patterns/src/main/java/io/github/andichrist/behavioral/state)
 - ⭐️ [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
 
+## Objektrelationale Abbildung (object-relational mapping, ORM)
+- [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
+- [Datentransferobjekt (Data Transfer Object, DTO)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dataTransferObject)
+- [Active Record](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/activeRecord)
+- [Unit of Work](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/unitOfWork)
+
 ## Sonstige
 - [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)
 - [Dependency Injection](patterns/src/main/java/io/github/andichrist/other/dependencyInjection)
@@ -44,4 +50,3 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - [Repository](patterns/src/main/java/io/github/andichrist/other/repository)
 - [Service-Locator](patterns/src/main/java/io/github/andichrist/other/serviceLocator)
 - [Specification](patterns/src/main/java/io/github/andichrist/other/specification)
-- [Lazy Loading](patterns/src/main/java/io/github/andichrist/other/lazyLoading)

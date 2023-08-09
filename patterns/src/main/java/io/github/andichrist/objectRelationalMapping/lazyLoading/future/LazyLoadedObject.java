@@ -1,4 +1,4 @@
-package io.github.andichrist.other.lazyLoading;
+package io.github.andichrist.objectRelationalMapping.lazyLoading.future;
 
 public class LazyLoadedObject {
   private String data;

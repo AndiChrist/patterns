@@ -1,4 +1,4 @@
-package io.github.andichrist.other.lazyLoading;
+package io.github.andichrist.objectRelationalMapping.lazyLoading;
 
 /*
  Das "Lazy Loading"-Muster verzögert die Erstellung oder Initialisierung eines Objekts,
