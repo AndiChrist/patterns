@@ -1,5 +1,5 @@
 # Entwurfsmuster
-Eine kleie Sammlung von GoF(⭐️)- und anderen Entwurfsmustern
+Eine klenie Sammlung von GoF(⭐️)- und anderen Entwurfsmustern
 
 ## Erzeugungsmuster (creational patterns)
 - ⭐️ [Abstrake Fabrik (Abstract factory)](patterns/src/main/java/io/github/andichrist/creational/abstractFactory)
