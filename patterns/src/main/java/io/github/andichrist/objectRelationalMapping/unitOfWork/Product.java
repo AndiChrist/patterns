@@ -1,7 +1,7 @@
 package io.github.andichrist.objectRelationalMapping.unitOfWork;
 
 /*
- Ja, eine sinnvolle Definition eines "Domain Object" (auch "Domänenobjekt" genannt) ist,
+ Eine sinnvolle Definition eines "Domain Object" (auch "Domänenobjekt" genannt) ist,
  dass es sich um eine Klasse in einer Softwareanwendung handelt, die ein Konzept oder
  eine Entität aus dem realen Anwendungsdomänenmodell repräsentiert. Domänenobjekte erfassen
  die wesentlichen Eigenschaften, Zustände und Verhaltensweisen dieser Konzepte und
