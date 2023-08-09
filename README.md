@@ -32,6 +32,7 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - ⭐️ [Vermittler (Mediator)](patterns/src/main/java/io/github/andichrist/behavioral/mediator)
 - ⭐️ [Zustand (State)](patterns/src/main/java/io/github/andichrist/behavioral/state)
 - ⭐️ [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
+- [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 - [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
