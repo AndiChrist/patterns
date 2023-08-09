@@ -51,3 +51,4 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - [Repository](patterns/src/main/java/io/github/andichrist/other/repository)
 - [Service-Locator](patterns/src/main/java/io/github/andichrist/other/serviceLocator)
 - [Specification](patterns/src/main/java/io/github/andichrist/other/specification)
+- [Business Delegate](patterns/src/main/java/io/github/andichrist/other/businessDelegate)
