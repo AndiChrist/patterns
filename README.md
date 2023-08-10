@@ -62,39 +62,39 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 
 ## Tests und Qualitätsprüfung (QA)
 
-- Test-Driven Development (TDD)
+Test-Driven Development (TDD)
 : _Bei dieser Praxis schreiben Entwickler zuerst Tests, bevor sie den eigentlichen Code schreiben. Dies fördert die Planung, führt zu besserer Testabdeckung und hilft bei der Gestaltung von Code, der einfacher zu testen ist._
 
-- Behavior-Driven Development (BDD)
+Behavior-Driven Development (BDD)
 : Eine Erweiterung von TDD, bei der Tests in einer natürlicheren Sprache geschrieben werden, um das Verhalten der Anwendung zu beschreiben. Dies erleichtert die Kommunikation zwischen Entwicklern, Testern und Nicht-Technikern.
 
-- Page Object Pattern
+Page Object Pattern
 : Dieses Muster wird oft in der Testautomatisierung verwendet. Es beinhaltet die Erstellung von Klassen, die das Verhalten von Webseiten oder UI-Elementen repräsentieren. Dadurch wird der Testcode wartbarer und verständlicher.
 
-- Test Doubles
+Test Doubles
 : Hierzu gehören Mocks, Stubs, Fakes und andere Arten von Testobjekten, die dazu verwendet werden, externe Abhängigkeiten zu simulieren oder zu isolieren, um Tests unabhängig und wiederholbar zu machen.
 
-- Data-Driven Testing
+Data-Driven Testing
 : Tests werden mit unterschiedlichen Datensätzen ausgeführt, um verschiedene Szenarien abzudecken und die Robustheit der Anwendung sicherzustellen.
 
-- Continuous Integration (CI) und Continuous Deployment (CD)
+Continuous Integration (CI) und Continuous Deployment (CD)
 : Automatisierung von Build-, Test- und Bereitstellungsprozessen, um eine schnellere und zuverlässigere Bereitstellung von Software sicherzustellen.
 
-- Regression Testing
+Regression Testing
 : Das regelmäßige Ausführen von Tests, um sicherzustellen, dass neue Codeänderungen keine bestehende Funktionalität beeinträchtigen.
 
-- Load Testing und Performance Testing
+Load Testing und Performance Testing
 : Prüfen der Leistung und Skalierbarkeit einer Anwendung unter verschiedenen Belastungsbedingungen.
 
-- Exploratory Testing
+Exploratory Testing
 : Manuelles Testen, bei dem Tester die Anwendung erkunden und unerwartete Fehler oder Schwachstellen entdecken.
 
-- Test Prioritization
+Test Prioritization
 : Festlegen der Reihenfolge, in der Tests ausgeführt werden sollen, um kritische Bereiche zuerst abzudecken.
 
-- Code Reviews
+Code Reviews
 : Gemeinsame Überprüfung des Codes durch mehrere Entwickler, um Fehler zu finden und Best Practices zu fördern.
 
-- Pair Testing
+Pair Testing
 : Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen.
  
