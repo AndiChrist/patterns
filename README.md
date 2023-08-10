@@ -41,6 +41,11 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - [Unit of Work](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/unitOfWork)
 - [Table Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/tableDataGateway)
 - [Row Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/rowDataGateway)
+- [Identity Map](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityMap)
+- [Identity Field](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityField)
+- Dependent Mapping
+- [Embedded Value](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/embeddedValue)
+- [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
 
 ## Sonstige
 - [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)

@@ -23,6 +23,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.springframework/spring-context
     implementation("org.springframework:spring-context:6.0.11")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.1.2")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
