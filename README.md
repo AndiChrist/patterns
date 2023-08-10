@@ -39,6 +39,8 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - [Datentransferobjekt (Data Transfer Object, DTO)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dataTransferObject)
 - [Active Record](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/activeRecord)
 - [Unit of Work](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/unitOfWork)
+- [Table Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/tableDataGateway)
+- [Row Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/rowDataGateway)
 
 ## Sonstige
 - [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)
