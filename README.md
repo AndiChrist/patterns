@@ -62,39 +62,51 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 
 ## Tests und Qualitätsprüfung (QA)
 
-Test-Driven Development (TDD)
-: _Bei dieser Praxis schreiben Entwickler zuerst Tests, bevor sie den eigentlichen Code schreiben. Dies fördert die Planung, führt zu besserer Testabdeckung und hilft bei der Gestaltung von Code, der einfacher zu testen ist._
+- Test-Driven Development (TDD)
+  
+    _Bei dieser Praxis schreiben Entwickler zuerst Tests, bevor sie den eigentlichen Code schreiben. Dies fördert die Planung, führt zu besserer Testabdeckung und hilft bei der Gestaltung von Code, der einfacher zu testen ist._
 
-Behavior-Driven Development (BDD)
-: Eine Erweiterung von TDD, bei der Tests in einer natürlicheren Sprache geschrieben werden, um das Verhalten der Anwendung zu beschreiben. Dies erleichtert die Kommunikation zwischen Entwicklern, Testern und Nicht-Technikern.
+- Behavior-Driven Development (BDD)
 
-Page Object Pattern
-: Dieses Muster wird oft in der Testautomatisierung verwendet. Es beinhaltet die Erstellung von Klassen, die das Verhalten von Webseiten oder UI-Elementen repräsentieren. Dadurch wird der Testcode wartbarer und verständlicher.
+    _Eine Erweiterung von TDD, bei der Tests in einer natürlicheren Sprache geschrieben werden, um das Verhalten der Anwendung zu beschreiben. Dies erleichtert die Kommunikation zwischen Entwicklern, Testern und Nicht-Technikern._
 
-Test Doubles
-: Hierzu gehören Mocks, Stubs, Fakes und andere Arten von Testobjekten, die dazu verwendet werden, externe Abhängigkeiten zu simulieren oder zu isolieren, um Tests unabhängig und wiederholbar zu machen.
+- Page Object Pattern
 
-Data-Driven Testing
-: Tests werden mit unterschiedlichen Datensätzen ausgeführt, um verschiedene Szenarien abzudecken und die Robustheit der Anwendung sicherzustellen.
+    _Dieses Muster wird oft in der Testautomatisierung verwendet. Es beinhaltet die Erstellung von Klassen, die das Verhalten von Webseiten oder UI-Elementen repräsentieren. Dadurch wird der Testcode wartbarer und verständlicher._
 
-Continuous Integration (CI) und Continuous Deployment (CD)
-: Automatisierung von Build-, Test- und Bereitstellungsprozessen, um eine schnellere und zuverlässigere Bereitstellung von Software sicherzustellen.
+- Test Doubles
 
-Regression Testing
-: Das regelmäßige Ausführen von Tests, um sicherzustellen, dass neue Codeänderungen keine bestehende Funktionalität beeinträchtigen.
+    _Hierzu gehören Mocks, Stubs, Fakes und andere Arten von Testobjekten, die dazu verwendet werden, externe Abhängigkeiten zu simulieren oder zu isolieren, um Tests unabhängig und wiederholbar zu machen._
 
-Load Testing und Performance Testing
-: Prüfen der Leistung und Skalierbarkeit einer Anwendung unter verschiedenen Belastungsbedingungen.
+- Data-Driven Testing
 
-Exploratory Testing
-: Manuelles Testen, bei dem Tester die Anwendung erkunden und unerwartete Fehler oder Schwachstellen entdecken.
+    _Tests werden mit unterschiedlichen Datensätzen ausgeführt, um verschiedene Szenarien abzudecken und die Robustheit der Anwendung sicherzustellen._
 
-Test Prioritization
-: Festlegen der Reihenfolge, in der Tests ausgeführt werden sollen, um kritische Bereiche zuerst abzudecken.
+- Continuous Integration (CI) und Continuous Deployment (CD)
 
-Code Reviews
-: Gemeinsame Überprüfung des Codes durch mehrere Entwickler, um Fehler zu finden und Best Practices zu fördern.
+    _Automatisierung von Build-, Test- und Bereitstellungsprozessen, um eine schnellere und zuverlässigere Bereitstellung von Software sicherzustellen._
 
-Pair Testing
-: Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen.
+- Regression Testing
+
+    _Das regelmäßige Ausführen von Tests, um sicherzustellen, dass neue Codeänderungen keine bestehende Funktionalität beeinträchtigen._
+
+- Load Testing und Performance Testing
+
+    _Prüfen der Leistung und Skalierbarkeit einer Anwendung unter verschiedenen Belastungsbedingungen._
+
+- Exploratory Testing
+
+    _Manuelles Testen, bei dem Tester die Anwendung erkunden und unerwartete Fehler oder Schwachstellen entdecken._
+
+- Test Prioritization
+
+    _Festlegen der Reihenfolge, in der Tests ausgeführt werden sollen, um kritische Bereiche zuerst abzudecken._
+
+- Code Reviews
+
+    _Gemeinsame Überprüfung des Codes durch mehrere Entwickler, um Fehler zu finden und Best Practices zu fördern._
+
+- Pair Testing
+
+    _Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen._
  
