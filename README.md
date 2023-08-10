@@ -1,5 +1,5 @@
 # Entwurfsmuster
-Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen Hausgebrauch.
+Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 ## Erzeugungsmuster (creational patterns)
 - ⭐️ [Abstrake Fabrik (Abstract factory)](patterns/src/main/java/io/github/andichrist/creational/abstractFactory)
@@ -32,21 +32,22 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - ⭐️ [Vermittler (Mediator)](patterns/src/main/java/io/github/andichrist/behavioral/mediator)
 - ⭐️ [Zustand (State)](patterns/src/main/java/io/github/andichrist/behavioral/state)
 - ⭐️ [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
-- [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
+- ⚙️ [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
+- ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
-- [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
-- [Datentransferobjekt (Data Transfer Object, DTO)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dataTransferObject)
-- [Active Record](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/activeRecord)
-- [Unit of Work](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/unitOfWork)
-- [Table Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/tableDataGateway)
-- [Row Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/rowDataGateway)
-- [Identity Map](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityMap)
-- [Identity Field](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityField)
-- Dependent Mapping
-- [Embedded Value](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/embeddedValue)
-- [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
-- [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
+- 🛟 [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
+- 🛟 [Datentransferobjekt (Data Transfer Object, DTO)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dataTransferObject)
+- 🛟 [Active Record](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/activeRecord)
+- 🛟 [Unit of Work](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/unitOfWork)
+- 🛟 [Table Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/tableDataGateway)
+- 🛟 [Row Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/rowDataGateway)
+- 🛟 [Identity Map](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityMap)
+- 🛟 [Identity Field](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityField)
+- 🛟 Dependent Mapping
+- 🛟 [Embedded Value](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/embeddedValue)
+- 🛟 [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
+- 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
 
 ## Sonstige
 - [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)
@@ -110,4 +111,8 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 - Pair Testing
 
     _Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen._
- 
+
+
+⭐️: Erich Gamma, Richard Helm, Ralph E. Johnson, John Vlissides: Entwurfsmuster. Elemente wiederverwendbarer objektorientierter Software
+🛟: Martin Fowler: Patterns of Enterprise Application Architecture
+⚙️: Stuart Sierra - Functional Design Patterns
