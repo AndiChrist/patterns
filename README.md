@@ -70,7 +70,7 @@ Eine kleine Sammlung von GoF(⭐️)- und anderen Entwurfsmustern, für meinen H
 
     _Eine Erweiterung von TDD, bei der Tests in einer natürlicheren Sprache geschrieben werden, um das Verhalten der Anwendung zu beschreiben. Dies erleichtert die Kommunikation zwischen Entwicklern, Testern und Nicht-Technikern._
 
-- Page Object Pattern
+- [Page Object Pattern](patterns/src/main/java/io/github/andichrist/testing/pageObject)
 
     _Dieses Muster wird oft in der Testautomatisierung verwendet. Es beinhaltet die Erstellung von Klassen, die das Verhalten von Webseiten oder UI-Elementen repräsentieren. Dadurch wird der Testcode wartbarer und verständlicher._
 
