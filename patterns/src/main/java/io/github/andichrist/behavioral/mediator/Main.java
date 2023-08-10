@@ -15,17 +15,17 @@ und Flexibilität des Systems verbessert.
 Die wichtigsten Komponenten des "Vermittler"-Musters sind:
 
 1. Vermittler (Mediator): Ein Interface oder eine abstrakte Klasse, das die Methoden
-definiert, über die Objekte kommunizieren können. Der Vermittler hält eine Referenz auf
-die beteiligten Objekte.
+   definiert, über die Objekte kommunizieren können. Der Vermittler hält eine Referenz auf
+   die beteiligten Objekte.
 
 2. Konkreter Vermittler (Concrete Mediator): Eine konkrete Implementierung des Vermittler-
-Interfaces, das die tatsächliche Kommunikation zwischen den Objekten verwaltet.
+   Interfaces, das die tatsächliche Kommunikation zwischen den Objekten verwaltet.
 
 3. Kollege (Colleague): Ein Interface oder eine abstrakte Klasse, das die Methoden
-definiert, über die ein Objekt mit dem Vermittler kommuniziert.
+   definiert, über die ein Objekt mit dem Vermittler kommuniziert.
 
 4. Konkreter Kollege (Concrete Colleague): Konkrete Implementierungen der Kollegen, die
-die Methoden des Kollegen-Interfaces implementieren und mit dem Vermittler kommunizieren.
+   die Methoden des Kollegen-Interfaces implementieren und mit dem Vermittler kommunizieren.
 
 Hier ist eine vereinfachte Implementierung des "Vermittler"-Musters in Java.
 

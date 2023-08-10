@@ -14,13 +14,14 @@ package io.github.andichrist.behavioral.state;
  Die wichtigsten Komponenten des "Zustand"-Musters sind:
 
  1. Kontext (Context): Das Objekt, dessen Zustand sich ändern kann. Es hält eine
- Referenz auf das aktuelle Zustandsobjekt und delegiert die Anfragen an das Zustandsobjekt.
+    Referenz auf das aktuelle Zustandsobjekt und delegiert die Anfragen an das
+    Zustandsobjekt.
 
  2. Zustand (State): Ein Interface oder eine abstrakte Klasse, das die Methoden
- definiert, die vom Kontext für verschiedene Zustände aufgerufen werden.
+    definiert, die vom Kontext für verschiedene Zustände aufgerufen werden.
 
  3. Konkreter Zustand (Concrete State): Konkrete Implementierungen des Zustands-Interfaces,
- die das spezifische Verhalten für jeden Zustand definieren.
+    die das spezifische Verhalten für jeden Zustand definieren.
 
  Hier ist eine vereinfachte Implementierung des "Zustand"-Musters in Java.
 

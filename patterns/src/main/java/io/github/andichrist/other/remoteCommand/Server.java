@@ -13,20 +13,20 @@ import java.rmi.registry.Registry;
  Das Muster umfasst normalerweise folgende Komponenten:
 
  1. Client: Der Client initiiert die Anfrage zur Ausführung eines Befehls. Er erstellt ein
- Befehlsobjekt, setzt seine Parameter und sendet es an den Server.
+    Befehlsobjekt, setzt seine Parameter und sendet es an den Server.
 
  2. Befehlsobjekt: Dieses Objekt enthält alle Informationen, die zur Ausführung des Befehls
- erforderlich sind. Es kann Parameter, Methodenreferenzen oder andere Informationen
- enthalten, die benötigt werden, um den Befehl auszuführen.
+    erforderlich sind. Es kann Parameter, Methodenreferenzen oder andere Informationen
+    enthalten, die benötigt werden, um den Befehl auszuführen.
 
  3. Invoker: Der Invoker ist verantwortlich für die Ausführung des Befehls. Er ruft die
- entsprechende Methode auf dem Befehlsobjekt auf und führt den Befehl aus.
+    entsprechende Methode auf dem Befehlsobjekt auf und führt den Befehl aus.
 
  4. Receiver: Der Receiver ist der tatsächliche Empfänger des Befehls. Er führt die
- eigentliche Aktion oder Operation aus, die durch den Befehl definiert ist.
+    eigentliche Aktion oder Operation aus, die durch den Befehl definiert ist.
 
  5. Server: Der Server empfängt die Befehle vom Client, führt sie über den Invoker aus und
- leitet die Aktionen an den entsprechenden Receiver weiter.
+    leitet die Aktionen an den entsprechenden Receiver weiter.
 
  Das "Remote Command" Muster ist besonders nützlich, wenn verschiedene Teile eines Systems
  auf unterschiedlichen Servern oder in unterschiedlichen Prozessen ausgeführt werden. Es

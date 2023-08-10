@@ -16,12 +16,12 @@ package io.github.andichrist.behavioral.chainOfResponsibility;
  Die wichtigsten Komponenten der "Zuständigkeitskette" sind:
 
  1. Handler (Handler): Ein Interface oder eine abstrakte Klasse, das die Methode
- handleRequest() definiert, um die Anfrage zu bearbeiten oder an den nächsten Handler
- in der Kette weiterzuleiten.
+    handleRequest() definiert, um die Anfrage zu bearbeiten oder an den nächsten Handler
+    in der Kette weiterzuleiten.
 
  2. Konkreter Handler (Concrete Handler): Konkrete Implementierungen des Handlers, die
- die Anfrage bearbeiten können. Jeder konkrete Handler kann entscheiden, ob er die
- Anfrage selbst bearbeiten kann oder sie an den nächsten Handler weitergibt.
+    die Anfrage bearbeiten können. Jeder konkrete Handler kann entscheiden, ob er die
+    Anfrage selbst bearbeiten kann oder sie an den nächsten Handler weitergibt.
 
  Hier ist eine vereinfachte Implementierung der "Zuständigkeitskette" in Java.
 

@@ -15,17 +15,17 @@ package io.github.andichrist.behavioral.visitor;
  Die wichtigsten Komponenten des "Besucher"-Musters sind:
 
  1. Element (Element): Eine Schnittstelle oder eine abstrakte Klasse, die eine accept-Methode
- definiert, die einen Besucher akzeptiert.
+    definiert, die einen Besucher akzeptiert.
 
  2. Konkretes Element (Concrete Element): Eine konkrete Implementierung des Elements, das
- die accept-Methode implementiert.
+    die accept-Methode implementiert.
 
- 3. Besucher (Visitor): Eine Schnittstelle oder eine abstrakte Klasse, die die visit-Methoden
- für jedes konkrete Element definiert.
+ 3. Besucher (Visitor): Eine Schnittstelle oder eine abstrakte Klasse, die die visit-
+    Methoden für jedes konkrete Element definiert.
 
  4. Konkreter Besucher (Concrete Visitor): Eine konkrete Implementierung des Besuchers,
- das die visit-Methoden implementiert, um die neue Operation für jedes konkrete Element
- auszuführen.
+    das die visit-Methoden implementiert, um die neue Operation für jedes konkrete Element
+    auszuführen.
 
  Hier ist eine vereinfachte Implementierung des "Besucher"-Musters in Java.
 

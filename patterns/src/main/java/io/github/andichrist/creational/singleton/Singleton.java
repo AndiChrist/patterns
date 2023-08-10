@@ -13,15 +13,15 @@ package io.github.andichrist.creational.singleton;
  Erklärung:
 
  1. Die Klasse Singleton hat einen privaten statischen Member instance, der die einzige
- Instanz der Klasse hält. Er wird als statisch deklariert, damit er unabhängig von einer
- Instanz der Klasse existiert.
+    Instanz der Klasse hält. Er wird als statisch deklariert, damit er unabhängig von einer
+    Instanz der Klasse existiert.
 
  2. Der Konstruktor der Singleton-Klasse ist privat, was bedeutet, dass keine Instanzen der
- Klasse außerhalb der Klasse erstellt werden können.
+    Klasse außerhalb der Klasse erstellt werden können.
 
  3. Die statische Methode getInstance ist der zentrale Zugriffspunkt, um die Singleton-Instanz
- zurückzugeben. Wenn instance noch nicht initialisiert ist, wird sie durch den Aufruf des
- privaten Konstruktors erstellt.
+    zurückzugeben. Wenn instance noch nicht initialisiert ist, wird sie durch den Aufruf des
+    privaten Konstruktors erstellt.
 
  Wichtig: Die obige Implementierung ist bekannt als "Lazy Initialization". Das bedeutet, dass
  die Singleton-Instanz erst beim ersten Aufruf von getInstance() erstellt wird. Es ist eine

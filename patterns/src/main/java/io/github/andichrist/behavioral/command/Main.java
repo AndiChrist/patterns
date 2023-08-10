@@ -15,17 +15,17 @@ package io.github.andichrist.behavioral.command;
  Die wichtigsten Komponenten des "Kommando"-Musters sind:
 
  1. Kommando (Command): Ein Interface, das eine Methode (z. B. execute()) definiert, um
- die Aktion auszuführen.
+    die Aktion auszuführen.
 
  2. Konkretes Kommando (Concrete Command): Eine konkrete Implementierung des Kommandos,
- das die Methode execute() implementiert und eine Referenz auf den Empfänger enthält, der
- die eigentliche Aktion ausführt.
+    das die Methode execute() implementiert und eine Referenz auf den Empfänger enthält,
+    der die eigentliche Aktion ausführt.
 
  3. Empfänger (Receiver): Das Objekt, das die eigentliche Aktion ausführt, wenn das
- Kommando ausgeführt wird.
+    Kommando ausgeführt wird.
 
  4. Aufrufer (Invoker): Der Client, der das Kommando erstellt und dessen execute()-Methode
- aufruft, um die Aktion auszuführen.
+    aufruft, um die Aktion auszuführen.
 
  Hier ist eine vereinfachte Implementierung des "Kommando"-Musters in Java.
 

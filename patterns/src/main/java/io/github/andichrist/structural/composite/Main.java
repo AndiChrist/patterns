@@ -14,14 +14,14 @@ package io.github.andichrist.structural.composite;
  Das Muster besteht aus drei Hauptkomponenten:
 
  1. Komponente (Component): Ein gemeinsames Interface oder eine abstrakte Klasse, das/die
- die Operationen definiert, die sowohl für einzelne Objekte als auch für Kompositionen
- gelten.
+    die Operationen definiert, die sowohl für einzelne Objekte als auch für Kompositionen
+    gelten.
 
  2. Blatt (Leaf): Eine konkrete Implementierung der Komponente für einzelne Objekte.
 
  3. Kompositum (Composite): Eine konkrete Implementierung der Komponente für die
- Komposition von Objekten. Es hält eine Liste von Komponenten und implementiert die
- Operationen, indem es diese Operationen an die enthaltenen Komponenten delegiert.
+    Komposition von Objekten. Es hält eine Liste von Komponenten und implementiert die
+    Operationen, indem es diese Operationen an die enthaltenen Komponenten delegiert.
 
  Im Beispiel haben wir eine Hierarchie von Komponenten (Component), die aus einzelnen
  Objekten (Leaf) und Kompositionen von Objekten (Composite) besteht. Die Operation

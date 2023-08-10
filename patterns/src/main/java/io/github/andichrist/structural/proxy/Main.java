@@ -16,13 +16,13 @@ package io.github.andichrist.structural.proxy;
  Es gibt verschiedene Arten von "Stellvertreter"-Objekten:
 
  1. Virtuelles Proxy: Erzeugt das eigentliche Objekt erst, wenn es tatsächlich benötigt
- wird (z. B. Lazy Loading).
+    wird (z. B. Lazy Loading).
 
  2. Fernproxy (Remote Proxy): Dient als lokaler Vertreter für ein entferntes Objekt, das
- sich in einem anderen Speicherort oder einer anderen Adresse befindet.
+    sich in einem anderen Speicherort oder einer anderen Adresse befindet.
 
  3. Schutzproxy (Protection Proxy): Kontrolliert den Zugriff auf das eigentliche Objekt und
- kann Berechtigungsprüfungen durchführen, bevor eine Operation ausgeführt wird.
+    kann Berechtigungsprüfungen durchführen, bevor eine Operation ausgeführt wird.
 
  Hier ist eine vereinfachte Implementierung des "Stellvertreter"-Musters in Java mit einem
  virtuellen Proxy.

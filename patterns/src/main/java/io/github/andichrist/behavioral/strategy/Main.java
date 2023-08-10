@@ -16,13 +16,13 @@ package io.github.andichrist.behavioral.strategy;
  Die wichtigsten Komponenten des "Strategie"-Musters sind:
 
  1. Kontext (Context): Die Klasse, die die Strategien verwendet. Sie hält eine Referenz
- auf ein Strategie-Interface und kann die Strategie zur Laufzeit ändern.
+    auf ein Strategie-Interface und kann die Strategie zur Laufzeit ändern.
 
  2. Strategie (Strategy): Ein Interface oder eine abstrakte Klasse, das die Methode oder
- Methoden definiert, die von den konkreten Strategien implementiert werden.
+    Methoden definiert, die von den konkreten Strategien implementiert werden.
 
  3. Konkrete Strategien (Concrete Strategies): Konkrete Implementierungen der Strategie,
- die die spezifischen Verhaltensweisen oder Algorithmen definieren.
+    die die spezifischen Verhaltensweisen oder Algorithmen definieren.
 
  Hier ist eine vereinfachte Implementierung des "Strategie"-Musters in Java.
 

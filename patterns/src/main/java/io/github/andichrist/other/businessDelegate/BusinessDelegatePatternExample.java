@@ -10,21 +10,21 @@ package io.github.andichrist.other.businessDelegate;
  Hier ist eine kurze Erklärung des Musters:
 
  1. Client: Der Client ist die Komponente, die die Dienste der Business-Komponente nutzen
- möchte. Der Client interagiert nicht direkt mit der Business-Komponente, sondern verwendet
- stattdessen den "Business Delegate".
+    möchte. Der Client interagiert nicht direkt mit der Business-Komponente, sondern
+    verwendet stattdessen den "Business Delegate".
 
  2. Business Delegate: Der Business Delegate ist eine Zwischenschicht oder ein Vermittler,
- der die Interaktion des Clients mit der Business-Komponente verwaltet. Er versteckt die
- Komplexität der Business-Komponente und bietet eine einheitliche Schnittstelle für den
- Client.
+    der die Interaktion des Clients mit der Business-Komponente verwaltet. Er versteckt die
+    Komplexität der Business-Komponente und bietet eine einheitliche Schnittstelle für den
+    Client.
 
  3. Lookup Service: Der Lookup Service ist für die Suche und Bereitstellung der richtigen
- Business-Komponente verantwortlich. Der Business Delegate verwendet den Lookup Service,
- um die entsprechende Business-Komponente zu erhalten.
+    Business-Komponente verantwortlich. Der Business Delegate verwendet den Lookup Service,
+    um die entsprechende Business-Komponente zu erhalten.
 
  4. Business Service: Dies ist die eigentliche Geschäftskomponente, mit der der Client
- interagieren möchte. Der Business Delegate ruft Methoden auf der Business-Komponente auf,
- nachdem er sie über den Lookup Service erhalten hat.
+    interagieren möchte. Der Business Delegate ruft Methoden auf der Business-Komponente
+    auf, nachdem er sie über den Lookup Service erhalten hat.
 
  Das "Business Delegate" Muster ist besonders nützlich in Anwendungen mit verteilten
  Systemen, wo die Kommunikation mit entfernten Diensten oder Komponenten erfolgt. Es

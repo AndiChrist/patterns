@@ -15,17 +15,17 @@ package io.github.andichrist.behavioral.iterator;
  Die wichtigsten Komponenten des "Iterator"-Musters sind:
 
  1. Iterator (Iterator): Ein Interface, das Methoden wie hasNext() zum Überprüfen, ob
- weitere Elemente vorhanden sind, und next() zum Abrufen des nächsten Elements definiert.
+    weitere Elemente vorhanden sind, und next() zum Abrufen des nächsten Elements definiert.
 
  2. Konkreter Iterator (Concrete Iterator): Eine konkrete Implementierung des Iterators,
- das die Methoden des Iterators implementiert, um die Iteration über die Sammlung
- durchzuführen.
+    das die Methoden des Iterators implementiert, um die Iteration über die Sammlung
+    durchzuführen.
 
  3. Aggregat (Aggregate): Ein Interface, das eine Methode zum Erhalten eines Iterators
- zurückgibt.
+    zurückgibt.
 
  4. Konkretes Aggregat (Concrete Aggregate): Eine konkrete Implementierung des Aggregats,
- das den konkreten Iterator zurückgibt.
+    das den konkreten Iterator zurückgibt.
 
  Hier ist eine vereinfachte Implementierung des "Iterator"-Musters in Java.
 

@@ -12,18 +12,18 @@ import java.util.List;
  Das "Unit of Work"-Muster behandelt normalerweise folgende Aspekte:
 
  1. Aggregation von Änderungen: Es erlaubt das Sammeln mehrerer Änderungen an
- Datenbankobjekten (wie Einfügen, Aktualisieren oder Löschen) in einer einzelnen
- Einheit (Unit). Dies erleichtert die Zusammenarbeit zwischen verschiedenen Teilen der
- Anwendung, die Änderungen vornehmen.
+    Datenbankobjekten (wie Einfügen, Aktualisieren oder Löschen) in einer einzelnen
+    Einheit (Unit). Dies erleichtert die Zusammenarbeit zwischen verschiedenen Teilen der
+    Anwendung, die Änderungen vornehmen.
 
  2. Transaktionsverwaltung: Es stellt sicher, dass alle gesammelten Änderungen in einer
- einzigen Transaktion ausgeführt werden. Entweder werden alle Änderungen erfolgreich
- durchgeführt, oder keine von ihnen wird durchgeführt, um Dateninkonsistenzen zu vermeiden.
+    einzigen Transaktion ausgeführt werden. Entweder werden alle Änderungen erfolgreich
+    durchgeführt, oder keine von ihnen wird durchgeführt, um Dateninkonsistenzen zu vermeiden.
 
  3. Kontextbezogene Datenbankinteraktion: Es ermöglicht, dass die Datenbankinteraktion
- und Transaktionsverwaltung innerhalb des "Unit of Work"-Kontexts erfolgen. Das bedeutet,
- dass alle Änderungen in einem einzigen logischen Zusammenhang stehen und atomar
- ausgeführt werden.
+    und Transaktionsverwaltung innerhalb des "Unit of Work"-Kontexts erfolgen. Das bedeutet,
+    dass alle Änderungen in einem einzigen logischen Zusammenhang stehen und atomar
+    ausgeführt werden.
 
  "Ein Unit of Work verfolgt alle Änderungen, welche Sie während einer Business-Transaktion
  durchführen, welche sich auf die Datenbank auswirken können. Wenn Sie fertig sind, stellt

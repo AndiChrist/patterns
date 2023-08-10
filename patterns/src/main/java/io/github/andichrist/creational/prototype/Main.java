@@ -14,10 +14,10 @@ package io.github.andichrist.creational.prototype;
  Es gibt zwei Hauptansätze für die Implementierung des "Prototyp"-Musters:
 
  1. Flaches Klonen: Die Prototyp-Objekte werden mithilfe der clone()-Methode (aus der
- Cloneable-Schnittstelle) geklont.
+    Cloneable-Schnittstelle) geklont.
 
- 2. Tiefes Klonen: Die gesamte Objektstruktur wird vollständig geklont, einschließlich aller
- enthaltenen Objekte.
+ 2. Tiefes Klonen: Die gesamte Objektstruktur wird vollständig geklont, einschließlich
+    aller enthaltenen Objekte.
 
  Es ist wichtig zu beachten, dass das Klonen manchmal tiefe Kopien von Objekten erstellt,
  was bedeuten kann, dass die Klonoperation teuer sein kann, wenn die Objektstruktur

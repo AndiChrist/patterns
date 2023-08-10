@@ -12,11 +12,11 @@ package io.github.andichrist.behavioral.interpreter;
  Hauptkomponenten:
 
  1. Kontext (Context): Enthält Informationen, die während der Interpretation von Ausdrücken
- verwendet werden können.
+    verwendet werden können.
 
  2. Ausdruck (Expression): Definiert eine abstrakte Schnittstelle für die Interpretation
- eines bestimmten Ausdrucks oder einer Regel. Jede Implementierung des Ausdrucks kann die
- Interpretation in einer spezifischen Weise durchführen.
+    eines bestimmten Ausdrucks oder einer Regel. Jede Implementierung des Ausdrucks kann
+    die Interpretation in einer spezifischen Weise durchführen.
 
  Das "Interpreter"-Muster verwendet die Rekursion, um komplexe Ausdrücke in kleinere
  Teil-Ausdrücke aufzuteilen und diese schrittweise zu interpretieren.

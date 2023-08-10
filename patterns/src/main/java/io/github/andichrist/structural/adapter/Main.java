@@ -13,13 +13,14 @@ package io.github.andichrist.structural.adapter;
  Es gibt zwei Arten von Adaptern:
 
  1. Klassenadapter: Hier wird ein Adapter als eine abgeleitete Klasse erstellt, die sowohl
- das Ziel-Interface als auch das Adaptee (die zu adaptierende Klasse) erweitert. Durch das
- Erweitern des Adaptees erhält der Adapter Zugriff auf die Implementierung des Adaptees und
- kann die Anfragen der Ziel-Schnittstelle durch Anrufe an den Adaptee übersetzen.
+    das Ziel-Interface als auch das Adaptee (die zu adaptierende Klasse) erweitert. Durch
+    das Erweitern des Adaptees erhält der Adapter Zugriff auf die Implementierung des
+    Adaptees und kann die Anfragen der Ziel-Schnittstelle durch Anrufe an den Adaptee
+    übersetzen.
 
  2. Objektadapter: Hier wird ein Adapter als eine separate Klasse erstellt, die sowohl das
- Ziel-Interface als auch eine Instanz des Adaptees enthält. Der Adapter delegiert die
- Anfragen der Ziel-Schnittstelle an die entsprechenden Methoden des Adaptees.
+    Ziel-Interface als auch eine Instanz des Adaptees enthält. Der Adapter delegiert die
+    Anfragen der Ziel-Schnittstelle an die entsprechenden Methoden des Adaptees.
 
  Hier ist ein vereinfachtes Beispiel für einen Objektadapter in Java:
 

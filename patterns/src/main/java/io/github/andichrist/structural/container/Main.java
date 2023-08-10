@@ -25,27 +25,28 @@ package io.github.andichrist.structural.container;
  Entwurfsmuster nützlich sein kann:
 
  1. Benutzeroberfläche und GUI-Frameworks: In grafischen Benutzeroberflächen können
- Widgets, Steuerelemente und Layouts als Komponenten dargestellt werden. Container können
- Widgets gruppieren, um komplexe Benutzeroberflächen zu erstellen.
+    Widgets, Steuerelemente und Layouts als Komponenten dargestellt werden. Container
+    können Widgets gruppieren, um komplexe Benutzeroberflächen zu erstellen.
 
  2. Dateisysteme: In einem Dateisystem können Dateien und Verzeichnisse als Komponenten
- betrachtet werden. Verzeichnisse können wiederum Dateien oder weitere Verzeichnisse
- enthalten.
+    betrachtet werden. Verzeichnisse können wiederum Dateien oder weitere Verzeichnisse
+    enthalten.
 
  3. Grafik- und Zeichenprogramme: Hierarchische Strukturen von Grafikobjekten wie
- Formen, Linien, Text usw. können mithilfe von Containern organisiert und verwaltet werden.
+    Formen, Linien, Text usw. können mithilfe von Containern organisiert und verwaltet
+    werden.
 
  4. Organisation von Ressourcen: In Spielen oder Anwendungen, die mit Ressourcen wie
- Bildern, Audio oder Videos arbeiten, kann das Container-Muster verwendet werden, um
- Ressourcen zu organisieren und zu verwalten.
+    Bildern, Audio oder Videos arbeiten, kann das Container-Muster verwendet werden, um
+    Ressourcen zu organisieren und zu verwalten.
 
  5. Untermenüs und Menüstrukturen: In Menüsystemen können Menüpunkte und Untermenüs als
- Komponenten betrachtet werden. Ein Untermenü kann sowohl Menüpunkte als auch weitere
- Untermenüs enthalten.
+    Komponenten betrachtet werden. Ein Untermenü kann sowohl Menüpunkte als auch weitere
+    Untermenüs enthalten.
 
  6. Strukturierung von Daten: Wenn Daten in einer hierarchischen Struktur organisiert
- werden müssen, kann das "Container" Muster verwendet werden, um die Daten in verschiedenen
- Ebenen zu gruppieren und zu verwalten.
+    werden müssen, kann das "Container" Muster verwendet werden, um die Daten in
+    verschiedenen Ebenen zu gruppieren und zu verwalten.
 
  Das "Container" Entwurfsmuster fördert die Trennung von Anliegen, da es die Verarbeitung
  von Einzelobjekten und Gruppen von Objekten auf gleiche Weise ermöglicht. Es erleichtert

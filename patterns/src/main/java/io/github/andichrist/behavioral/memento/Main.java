@@ -15,15 +15,15 @@ package io.github.andichrist.behavioral.memento;
  Die wichtigsten Komponenten des "Memento"-Musters sind:
 
  1. Ursprungator (Originator): Das Objekt, dessen Zustand gespeichert und wiederhergestellt
- werden soll. Es kann den aktuellen Zustand in einem Memento speichern und den Zustand aus
- einem Memento wiederherstellen.
+    werden soll. Es kann den aktuellen Zustand in einem Memento speichern und den Zustand
+    aus einem Memento wiederherstellen.
 
  2. Memento (Memento): Ein Objekt, das den Zustand des Ursprungators repräsentiert. Es
- stellt ein Schnittstellen- oder Wertobjekt dar und bietet in der Regel keine Möglichkeit,
- den Zustand direkt zu ändern.
+    stellt ein Schnittstellen- oder Wertobjekt dar und bietet in der Regel keine
+    Möglichkeit, den Zustand direkt zu ändern.
 
  3. Pfleger (Caretaker): Das Objekt, das die Mementos verwaltet. Es speichert die Mementos
- in einer Liste oder einem Stapel und stellt sie dem Ursprungator bei Bedarf zur Verfügung.
+    in einer Liste oder einem Stapel und stellt sie dem Ursprungator bei Bedarf zur Verfügung.
 
  Hier ist eine vereinfachte Implementierung des "Memento"-Musters in Java.
 

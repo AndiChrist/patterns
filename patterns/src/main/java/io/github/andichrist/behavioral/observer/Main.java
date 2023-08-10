@@ -16,18 +16,18 @@ package io.github.andichrist.behavioral.observer;
  Die wichtigsten Komponenten des "Beobachter"-Musters sind:
 
  1. Beobachter (Observer): Ein Interface oder eine abstrakte Klasse, das/ die eine Update-
- Methode definiert, die aufgerufen wird, wenn sich der Zustand des beobachteten Objekts
- ändert.
+    Methode definiert, die aufgerufen wird, wenn sich der Zustand des beobachteten Objekts
+    ändert.
 
  2. Konkreter Beobachter (Concrete Observer): Eine konkrete Implementierung des Beobachter-
- Interfaces, die die Update-Methode entsprechend implementiert.
+    Interfaces, die die Update-Methode entsprechend implementiert.
 
  3. Subjekt (Subject): Ein Interface oder eine abstrakte Klasse, das/ die Methoden zum
- Hinzufügen, Entfernen und Benachrichtigen von Beobachtern definiert.
+    Hinzufügen, Entfernen und Benachrichtigen von Beobachtern definiert.
 
  4. Konkretes Subjekt (Concrete Subject): Eine konkrete Implementierung des Subjekt-
- Interfaces, das die Liste der Beobachter verwaltet und diese bei Zustandsänderungen
- benachrichtigt.
+    Interfaces, das die Liste der Beobachter verwaltet und diese bei Zustandsänderungen
+    benachrichtigt.
 
  Hier ist eine vereinfachte Implementierung des "Beobachter"-Musters in Java.
 
