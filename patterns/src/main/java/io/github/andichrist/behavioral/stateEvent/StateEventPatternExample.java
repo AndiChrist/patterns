@@ -22,6 +22,12 @@ package io.github.andichrist.behavioral.stateEvent;
  In diesem Beispiel haben wir zwei Zustände (StateA und StateB), zwei Ereignisse
  (EventX und EventY) und einen Kontext (Context), der den Zustandsautomaten verwaltet.
  Der Zustand des Kontexts ändert sich basierend auf den eingehenden Ereignissen.
+
+ Beispiel: eine Person kann den Zustand "unverheiratet" haben. Tritt nun das Ereignis
+ "Hochzeit" ein, bekommt die Person den neuen Zustand "verheiratet". Tritt erneut das
+ Ereignis "Hochzeit" ein, ändert sich am Zustand der Person nichts! Jetzt erfolgt das
+ Ereignis "Scheidung" und der Zustand ändert sich auf "geschieden". Erst jetzt kann
+ wieder geheiratet werden.
  */
 public class StateEventPatternExample {
   public static void main(String[] args) {
