@@ -9,16 +9,18 @@ class PositiveState implements AccountState {
   }
 
   @Override
-  public void deposit(double amount) {
-    balance += amount;
+  public double deposit(double amount) {
+    return balance += amount;
   }
 
   @Override
-  public void withdraw(double amount) {
+  public double withdraw(double amount) {
     if (balance - amount >= 0) {
       balance -= amount;
     } else {
       System.out.println("Insufficient funds!");
     }
+
+    return balance;
   }
 }

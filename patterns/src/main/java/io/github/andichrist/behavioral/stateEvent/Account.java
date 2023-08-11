@@ -16,11 +16,11 @@ class Account {
   }
 
   public void deposit(double amount) {
-    state.deposit(amount);
+    balance = state.deposit(amount);
   }
 
   public void withdraw(double amount) {
-    state.withdraw(amount);
+    balance = state.withdraw(amount);
   }
 
   public void setState(AccountState state) {
