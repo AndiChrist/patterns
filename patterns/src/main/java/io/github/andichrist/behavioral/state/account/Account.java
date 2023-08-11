@@ -1,4 +1,4 @@
-package io.github.andichrist.behavioral.stateEvent;
+package io.github.andichrist.behavioral.state.account;
 
 // Kontextklasse
 class Account {

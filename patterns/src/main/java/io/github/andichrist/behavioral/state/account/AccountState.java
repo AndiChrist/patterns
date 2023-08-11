@@ -1,4 +1,4 @@
-package io.github.andichrist.behavioral.stateEvent;
+package io.github.andichrist.behavioral.state.account;
 
 // Zustandsschnittstelle
 interface AccountState {
