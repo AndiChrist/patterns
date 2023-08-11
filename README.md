@@ -2,6 +2,7 @@
 Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 ## Erzeugungsmuster (creational patterns)
+
 - ⭐️ [Abstrake Fabrik (Abstract factory)](patterns/src/main/java/io/github/andichrist/creational/abstractFactory)
 - ⭐️ [Erbauer (Builder)](patterns/src/main/java/io/github/andichrist/creational/builder)
 - ⭐️ [Fabrikmethode (Factory method)](patterns/src/main/java/io/github/andichrist/creational/factory)
@@ -10,6 +11,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - [Multiton](patterns/src/main/java/io/github/andichrist/creational/multiton)
 
 ## Strukturmuster (structural design patterns)
+
 - ⭐️ [Klassenadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter)
 - ⭐️ [Objektadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter2)
 - ⭐️ [Brücke (Bridge pattern)](patterns/src/main/java/io/github/andichrist/structural/bridge)
@@ -21,6 +23,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - [Container](patterns/src/main/java/io/github/andichrist/structural/container)
 
 ## Verhaltensmuster (behavioral design patterns)
+
 - ⭐️ [Befehl (Command)](patterns/src/main/java/io/github/andichrist/behavioral/command)
 - ⭐️ [Beobachter (Observer)](patterns/src/main/java/io/github/andichrist/behavioral/observer)
 - ⭐️ [Besucher (Visitor)](patterns/src/main/java/io/github/andichrist/behavioral/visitor)
@@ -36,6 +39,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
+
 - 🛟 [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
 - 🛟 [Datentransferobjekt (Data Transfer Object, DTO)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dataTransferObject)
 - 🛟 [Active Record](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/activeRecord)
@@ -49,7 +53,12 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - 🛟 [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
 - 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
 
+## Nachrichtenübermittlungsmuster (Messaging Patterns)
+
+- 🦠 [Messaging Mapper](patterns/src/main/java/io/github/andichrist/messagingPatterns/messagingMapper)
+
 ## Sonstige
+
 - [Data Access Object](patterns/src/main/java/io/github/andichrist/other/dataAccessObject)
 - [Dependency Injection](patterns/src/main/java/io/github/andichrist/other/dependencyInjection)
 - [Fluent Interface](patterns/src/main/java/io/github/andichrist/other/fluentInterface)
@@ -61,6 +70,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - [Service-Locator](patterns/src/main/java/io/github/andichrist/other/serviceLocator)
 - [Specification](patterns/src/main/java/io/github/andichrist/other/specification)
 - [Business Delegate](patterns/src/main/java/io/github/andichrist/other/businessDelegate)
+- [Connection Pool](patterns/src/main/java/io/github/andichrist/other/connectionPool)
 
 ## Tests und Qualitätsprüfung (QA)
 
@@ -113,6 +123,12 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
     _Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen._
 
 
-⭐️: Erich Gamma, Richard Helm, Ralph E. Johnson, John Vlissides: Entwurfsmuster. Elemente wiederverwendbarer objektorientierter Software
-🛟: Martin Fowler: Patterns of Enterprise Application Architecture
-⚙️: Stuart Sierra - Functional Design Patterns
+⭐️ : Erich Gamma, Richard Helm, Ralph E. Johnson, John Vlissides: Entwurfsmuster. Elemente wiederverwendbarer objektorientierter Software
+
+🛟 : Martin Fowler: Patterns of Enterprise Application Architecture
+
+⚙️ : Stuart Sierra - Functional Design Patterns
+
+🦠 : Gregor Hohpe, Bobby Woolf: Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions
+
+https://de.wikipedia.org/wiki/Entwurfsmuster
