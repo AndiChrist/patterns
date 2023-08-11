@@ -16,7 +16,7 @@ class OverdraftState implements AccountState {
 
   @Override
   public void withdraw(double amount) {
-    if (balance - amount >= -overdraftLimit) {
+    if (balance - amount >= overdraftLimit) {
       balance -= amount;
     } else {
       System.out.println("Exceeded overdraft limit!");

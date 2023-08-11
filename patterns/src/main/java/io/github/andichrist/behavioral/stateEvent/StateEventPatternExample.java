@@ -21,7 +21,7 @@ public class StateEventPatternExample {
   public static void main(String[] args) {
     Account account = new Account(500.0);
 
-    account.deposit(300.0);
+    account.deposit(100.0);
     account.withdraw(700.0);
 
     // Wechsel des Kontozustands
