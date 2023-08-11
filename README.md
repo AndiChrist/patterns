@@ -35,7 +35,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⭐️ [Vermittler (Mediator)](patterns/src/main/java/io/github/andichrist/behavioral/mediator)
 - ⭐️ [Zustand (State)](patterns/src/main/java/io/github/andichrist/behavioral/state)
 - ⭐️ [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
-- ⚙️ [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
+- ⚙️ [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/account)
 - ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)

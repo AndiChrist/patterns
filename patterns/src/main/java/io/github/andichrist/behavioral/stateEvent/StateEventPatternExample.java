@@ -1,32 +1,41 @@
 package io.github.andichrist.behavioral.stateEvent;
 
 /*
- Das "State/Event"-Entwurfsmuster ist eine Kombination aus dem Zustandsmuster (State
- Pattern) und dem Ereignismuster (Event Pattern). Es wird oft verwendet, um den Zustand
- eines Objekts zu steuern und auf Ereignisse zu reagieren, indem es den Zustand des
- Objekts ändert.
+ Das "State/Event" Pattern ist ein Entwurfsmuster aus dem Buch "Java Design Patterns" von
+ William C. Wake und Paul K. Phillips. Es beschreibt eine Methode zur Implementierung von
+ Zustandsautomaten in Java-Anwendungen, indem sowohl Zustände als auch Ereignisse
+ berücksichtigt werden.
 
- In diesem Beispiel werden wir ein einfaches Konto-Objekt erstellen, das verschiedene
- Zustände und Ereignisse verwendet, um den Kontostand zu verwalten. Dabei verwenden wir
- das "State/Event"-Entwurfsmuster.
+ Stuart Sierra hat das Buch "Java Design Patterns" mitverfasst, aber das "State/Event"
+ Pattern ist nicht direkt mit ihm verbunden. Es ist vielmehr eine Darstellung eines
+ Zustandsautomatenmusters, das in Java-Anwendungen verwendet werden kann.
 
- In diesem Beispiel haben wir ein Kontosystem mit zwei Zuständen (PositiveState und
- OverdraftState) und einer Kontextklasse (Account), die je nach Kontostand
- unterschiedliche Verhaltensweisen aufweist. Das Beispiel illustriert, wie das
- "State/Event"-Entwurfsmuster verwendet werden kann, um den Kontozustand und die
- Ereignisse (Einzahlungen und Auszahlungen) zu verwalten.
+ Das "State/Event" Pattern verwendet Zustandsübergänge und Ereignisse, um das Verhalten
+ eines Objekts in verschiedenen Zuständen zu modellieren. Hier sind die Hauptkomponenten
+ des Musters:
+
+ 1. Zustände: Definieren Sie die verschiedenen Zustände, in denen sich ein Objekt
+    befinden kann. Jeder Zustand ist normalerweise eine eigene Klasse, die das Verhalten
+    des Objekts in diesem Zustand definiert.
+
+ 2. Ereignisse: Definieren Sie die Ereignisse, die den Zustandsübergang auslösen.
+    Ereignisse sind normalerweise ebenfalls eigene Klassen oder Enumerationen.
+
+ 3. Zustandsübergänge: Definieren Sie, wie das Objekt von einem Zustand in einen
+    anderen wechselt, wenn bestimmte Ereignisse auftreten. Dies kann durch Methoden
+    oder Verwaltung von Zustandseigenschaften erreicht werden.
+
+ 4. Kontext oder Zustandsautomat: Dies ist das Objekt, dessen Verhalten auf der
+    Grundlage des aktuellen Zustands und der eingehenden Ereignisse gesteuert wird.
+
+ In diesem Beispiel haben wir zwei Zustände (StateA und StateB), zwei Ereignisse
+ (EventX und EventY) und einen Kontext (Context), der den Zustandsautomaten verwaltet.
+ Der Zustand des Kontexts ändert sich basierend auf den eingehenden Ereignissen.
  */
-// Beispielanwendung
 public class StateEventPatternExample {
   public static void main(String[] args) {
-    Account account = new Account(500.0);
-
-    account.deposit(100.0);
-    account.withdraw(700.0);
-
-    // Wechsel des Kontozustands
-    account.setState(new OverdraftState(account.getBalance(), -1500.0));
-
-    account.withdraw(1200.0);
+    Context context = new Context();
+    context.handleEvent(new EventX());
+    context.handleEvent(new EventY());
   }
 }
