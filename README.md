@@ -56,6 +56,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 ## Nachrichtenübermittlungsmuster (Messaging Patterns)
 
 - 🦠 [Messaging Mapper](patterns/src/main/java/io/github/andichrist/messagingPatterns/messagingMapper)
+- 🦠 [Message](patterns/src/main/java/io/github/andichrist/messagingPatterns/message)
 
 ## Sonstige
 
