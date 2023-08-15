@@ -29,6 +29,9 @@ dependencies {
 
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
     implementation("org.seleniumhq.selenium:selenium-java:4.11.0")
+
+    // https://mvnrepository.com/artifact/org.apache.camel/camel-core
+    implementation("org.apache.camel:camel-core:3.21.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
