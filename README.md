@@ -39,6 +39,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
 - ⚙️ [Accumulator](patterns/src/main/java/io/github/andichrist/behavioral/accumulator)
 - ⚙️ [MapReduce](patterns/src/main/java/io/github/andichrist/behavioral/mapReduce)
+- ⚙️ [Reduce/Combine](patterns/src/main/java/io/github/andichrist/behavioral/reduceCombine)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
@@ -144,3 +145,5 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 - https://camel.apache.org/
 - https://de.wikipedia.org/wiki/Entwurfsmuster
+- https://www.infoq.com/presentations/Clojure-Design-Patterns/
+
