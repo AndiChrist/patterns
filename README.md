@@ -55,6 +55,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - 🛟 [Embedded Value](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/embeddedValue)
 - 🛟 [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
 - 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
+- 🛟 [Dependent Mapping](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dependentMapping)
 
 ## Nachrichtenübermittlungsmuster (Messaging Patterns)
 ### Enterprise Integration Patterns
