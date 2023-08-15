@@ -37,6 +37,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⭐️ [Zuständigkeitskette (Chain of responsibility)](patterns/src/main/java/io/github/andichrist/behavioral/chainOfResponsibility)
 - ⚙️ [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
 - ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
+- ⚙️ [Accumulator](patterns/src/main/java/io/github/andichrist/behavioral/accumulator)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
@@ -54,6 +55,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
 
 ## Nachrichtenübermittlungsmuster (Messaging Patterns)
+### Enterprise Integration Patterns
 
 - 🦠 [Messaging Mapper](patterns/src/main/java/io/github/andichrist/messagingPatterns/messagingMapper)
 - 🦠 [Message](patterns/src/main/java/io/github/andichrist/messagingPatterns/message)
@@ -123,6 +125,9 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
     _Gemeinsames Testen durch zwei Tester oder ein Tester-Entwickler-Paar, um unterschiedliche Perspektiven und Ideen einzubringen._
 
+---
+
+### Quellen
 
 ⭐️ : Erich Gamma, Richard Helm, Ralph E. Johnson, John Vlissides: Entwurfsmuster. Elemente wiederverwendbarer objektorientierter Software
 
@@ -132,4 +137,9 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 🦠 : Gregor Hohpe, Bobby Woolf: Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions
 
-https://de.wikipedia.org/wiki/Entwurfsmuster
+---
+
+### Links
+
+- https://camel.apache.org/
+- https://de.wikipedia.org/wiki/Entwurfsmuster
