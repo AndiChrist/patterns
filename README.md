@@ -38,6 +38,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [State/Event](patterns/src/main/java/io/github/andichrist/behavioral/stateEvent)
 - ⚙️ [Consequences](patterns/src/main/java/io/github/andichrist/behavioral/consequences)
 - ⚙️ [Accumulator](patterns/src/main/java/io/github/andichrist/behavioral/accumulator)
+- ⚙️ [MapReduce](patterns/src/main/java/io/github/andichrist/behavioral/mapReduce)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
