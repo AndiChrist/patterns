@@ -1,4 +1,4 @@
-package io.github.andichrist.other.nullObject;
+package io.github.andichrist.behavioral.nullObject;
 
 // Die Null-Implementierung des Loggers
 class NullLogger implements Logger {

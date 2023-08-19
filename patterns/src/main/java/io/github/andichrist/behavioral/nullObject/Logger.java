@@ -1,4 +1,4 @@
-package io.github.andichrist.other.nullObject;
+package io.github.andichrist.behavioral.nullObject;
 
 // Das Interface für eine abstrakte Komponente
 interface Logger {

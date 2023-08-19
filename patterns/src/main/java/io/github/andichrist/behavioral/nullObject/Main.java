@@ -1,4 +1,4 @@
-package io.github.andichrist.other.nullObject;
+package io.github.andichrist.behavioral.nullObject;
 
 /*
  Das "Null Object"-Muster ist ein Entwurfsmuster, das dazu dient, mit Nullreferenzen

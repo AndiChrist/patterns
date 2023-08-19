@@ -1,4 +1,4 @@
-package io.github.andichrist.other.nullObject;
+package io.github.andichrist.behavioral.nullObject;
 
 // Die konkrete Implementierung des Loggers
 class ConsoleLogger implements Logger {

@@ -41,6 +41,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [MapReduce](patterns/src/main/java/io/github/andichrist/behavioral/mapReduce)
 - ⚙️ [Reduce/Combine](patterns/src/main/java/io/github/andichrist/behavioral/reduceCombine)
 - [Interceptor](patterns/src/main/java/io/github/andichrist/behavioral/interceptor)
+- [Nullobjekt](patterns/src/main/java/io/github/andichrist/behavioral/nullObject)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
@@ -70,7 +71,6 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - [Dependency Injection](patterns/src/main/java/io/github/andichrist/other/dependencyInjection)
 - [Fluent Interface](patterns/src/main/java/io/github/andichrist/other/fluentInterface)
 - [Inversion of Control (IoC)](patterns/src/main/java/io/github/andichrist/other/inversionOfControl)
-- [Nullobjekt](patterns/src/main/java/io/github/andichrist/other/nullObject)
 - [Publish–subscribe](patterns/src/main/java/io/github/andichrist/other/observerObservable)
 - [Remote Command](patterns/src/main/java/io/github/andichrist/other/remoteCommand)
 - [Repository](patterns/src/main/java/io/github/andichrist/other/repository)
