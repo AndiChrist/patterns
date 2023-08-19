@@ -40,6 +40,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [Accumulator](patterns/src/main/java/io/github/andichrist/behavioral/accumulator)
 - ⚙️ [MapReduce](patterns/src/main/java/io/github/andichrist/behavioral/mapReduce)
 - ⚙️ [Reduce/Combine](patterns/src/main/java/io/github/andichrist/behavioral/reduceCombine)
+- [Interceptor](patterns/src/main/java/io/github/andichrist/behavioral/interceptor)
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
