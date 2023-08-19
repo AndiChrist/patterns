@@ -42,7 +42,8 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [Reduce/Combine](patterns/src/main/java/io/github/andichrist/behavioral/reduceCombine)
 - [Interceptor](patterns/src/main/java/io/github/andichrist/behavioral/interceptor)
 - [Nullobjekt](patterns/src/main/java/io/github/andichrist/behavioral/nullObject)
-
+- [Rekursive Erweiterung](patterns/src/main/java/io/github/andichrist/behavioral/recursiveExpansion)
+s
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
 - 🛟 [Lazy Loading](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/lazyLoading)
