@@ -59,6 +59,8 @@ s
 - 🛟 [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
 - 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)
 - 🛟 [Dependent Mapping](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/dependentMapping)
+- 🛟 [Query Object](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/queryObject)
+- 🛟 [Command-Query Responsibility Segregation (CQRS)](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/cqrs)
 
 ## Nachrichtenübermittlungsmuster (Messaging Patterns)
 ### Enterprise Integration Patterns
