@@ -44,6 +44,7 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - ⚙️ [Nullobjekt](patterns/src/main/java/io/github/andichrist/behavioral/nullObject)
 - ⚙️ [Rekursive Erweiterung](patterns/src/main/java/io/github/andichrist/behavioral/recursiveExpansion)
 - ⚙️ [Software Pipelining](patterns/src/main/java/io/github/andichrist/behavioral/softwarePipelining)
+- [ForkJoin](patterns/src/main/java/io/github/andichrist/behavioral/forkJoin) 
 
 ## Objektrelationale Abbildung (object-relational mapping, ORM)
 
