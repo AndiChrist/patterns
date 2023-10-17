@@ -1,5 +1,6 @@
 package io.github.andichrist.behavioral.forkJoin;
 
+import java.util.Arrays;
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ForkJoinPool;
 
@@ -25,7 +26,8 @@ import java.util.concurrent.ForkJoinPool;
 public class ForkJoinExample {
 
   public static void main(String[] args) {
-    int[] numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int[] numbers = new int[20]; // {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    Arrays.setAll(numbers, p -> p + 1);
 
     ForkJoinPool pool = new ForkJoinPool();
     long result = pool.invoke(new SumTask(numbers, 0, numbers.length));
@@ -39,6 +41,7 @@ public class ForkJoinExample {
     private int end;
 
     public SumTask(int[] numbers, int start, int end) {
+      System.out.println(Thread.currentThread().getName() + " : " + start + " - " + end);
       this.numbers = numbers;
       this.start = start;
       this.end = end;
