@@ -1,5 +1,6 @@
 package io.github.andichrist.messagingPatterns.message.wikipedia;
 
+import org.apache.camel.CamelContext;
 import org.apache.camel.Message;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
@@ -9,54 +10,54 @@ import java.util.NoSuchElementException;
 
 import static java.lang.System.out;
 
+// https://de.wikipedia.org/wiki/Message_(Entwurfsmuster)
 class MultipleMessagesSample {
 
-  static class Data extends LinkedList<String> {
+  private static final CamelContext camelContext = new DefaultCamelContext();
 
-    Data() {
-      add( "**** 1st  info ****" );
-      add( "**** 2nd  info ****" );
-      add( "**** 3rd  info ****" );
-    }
-  } // Data
+  public static void main(String[] args) throws Exception {
 
-  private static final DefaultCamelContext cc = new DefaultCamelContext();
+    var data = new Data();
 
-  public static void main( final String... args ) throws Exception {
-
-    final Data data = new Data();
-
-    cc.setName( "Multiple Messages Sample" );
-    cc.addRoutes( new RouteBuilder() {
+    camelContext.getCamelContextExtension().setName("Multiple Messages Sample");
+    camelContext.addRoutes(new RouteBuilder() {
 
       @Override
       public void configure() {
 
-        onException( NoSuchElementException.class )
-            .handled( true )
+        onException(NoSuchElementException.class)
+            .handled(true)
             .stop(); // aktuelle Übertragung wird abgebrochen
 
-        from( "timer:start" )
-            .process().message( m -> m.setBody( data.remove() ) ) // EIP Message; throws NoSuchElementException if empty Queue
-            .process().message( m -> print( "Sending", m ) )
-            .log( "Sending..." )
-            .to( "direct:receive" ) // EIP Sender
-            .setId( "Sender" );
+        from("timer:start")
+            .process().message(m -> m.setBody(data.remove())) // EIP Message; throws NoSuchElementException if empty Queue
+            .process().message(m -> print("Sending", m))
+            .log("Sending...")
+            .to("direct:receive") // EIP Sender
+            .setId("Sender");
 
-        from( "direct:receive" ) // EIP Receiver
-            .log( "Receiving..." )
-            .process().message( m -> print( "Receiving", m ) ) // EIP Message
-            .setId( "Receiver" );
+        from("direct:receive") // EIP Receiver
+            .log("Receiving...")
+            .process().message(m -> print("Receiving", m)) // EIP Message
+            .setId("Receiver");
       }
-    } );
-    cc.start();
-    Thread.sleep( 4000 );
-    cc.stop();
-    cc.close();
-  } // main()
+    });
+    camelContext.start();
+    Thread.sleep(4000);
+    camelContext.stop();
+    camelContext.close();
+  }
 
-  static void print( final String process, final Message m ) {
-    out.printf( "%s %s: %s%n", process, m, m.getBody() );
-  } // print()
+  static void print(final String process, final Message m) {
+    out.printf("%s %s: %s%n", process, m, m.getBody());
+  }
 
-} // MultipleMessagesSample
+  static class Data extends LinkedList<String> {
+    Data() {
+      add("**** 1st  info ****");
+      add("**** 2nd  info ****");
+      add("**** 3rd  info ****");
+    }
+  }
+
+}
