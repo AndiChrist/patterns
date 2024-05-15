@@ -17,27 +17,29 @@ repositories {
 
 dependencies {
     // Use JUnit Jupiter for testing.
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
+    // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
+    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
 
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-launcher
+    testRuntimeOnly("org.junit.platform:junit-platform-launcher:1.10.2")
 
     // https://mvnrepository.com/artifact/org.springframework/spring-context
-    implementation("org.springframework:spring-context:6.0.11")
+    implementation("org.springframework:spring-context:6.1.6")
 
     // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
-    implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.1.2")
+    implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.2.5")
 
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
-    implementation("org.seleniumhq.selenium:selenium-java:4.11.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.20.0")
 
     // https://mvnrepository.com/artifact/org.apache.camel/camel-core
-    implementation("org.apache.camel:camel-core:3.21.0")
+    implementation("org.apache.camel:camel-core:4.6.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
 java {
     toolchain {
-        languageVersion.set(JavaLanguageVersion.of(20))
+        languageVersion.set(JavaLanguageVersion.of(21))
     }
 }
 
