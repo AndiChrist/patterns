@@ -21,6 +21,6 @@ public class TestClientFactoryUsage {
       con = DriverManager.getConnection("myServer", "user",
           "password");
       stmt = con.createStatement();
-    } catch(Exception e) {}
+    } catch(Exception ignore) {}
   }
 }
