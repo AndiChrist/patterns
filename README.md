@@ -86,6 +86,16 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 ## Tests und Qualitätsprüfung (QA)
 
+### Muster (mit Code-Beispiel)
+
+- [Page Object Pattern](patterns/src/main/java/io/github/andichrist/testing/pageObject)
+- [Test Doubles (Dummy, Stub, Fake, Spy, Mock)](patterns/src/test/java/io/github/andichrist/testing/testDoubles)
+- [Test Data Builder](patterns/src/test/java/io/github/andichrist/testing/testDataBuilder)
+- [Data-Driven Testing](patterns/src/test/java/io/github/andichrist/testing/dataDriven)
+- [Teststruktur: AAA & Given-When-Then](patterns/src/test/java/io/github/andichrist/testing/structure)
+
+### Praktiken und Vorgehen
+
 - Test-Driven Development (TDD)
   
     _Bei dieser Praxis schreiben Entwickler zuerst Tests, bevor sie den eigentlichen Code schreiben. Dies fördert die Planung, führt zu besserer Testabdeckung und hilft bei der Gestaltung von Code, der einfacher zu testen ist._
@@ -93,18 +103,6 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - Behavior-Driven Development (BDD)
 
     _Eine Erweiterung von TDD, bei der Tests in einer natürlicheren Sprache geschrieben werden, um das Verhalten der Anwendung zu beschreiben. Dies erleichtert die Kommunikation zwischen Entwicklern, Testern und Nicht-Technikern._
-
-- [Page Object Pattern](patterns/src/main/java/io/github/andichrist/testing/pageObject)
-
-    _Dieses Muster wird oft in der Testautomatisierung verwendet. Es beinhaltet die Erstellung von Klassen, die das Verhalten von Webseiten oder UI-Elementen repräsentieren. Dadurch wird der Testcode wartbarer und verständlicher._
-
-- Test Doubles
-
-    _Hierzu gehören Mocks, Stubs, Fakes und andere Arten von Testobjekten, die dazu verwendet werden, externe Abhängigkeiten zu simulieren oder zu isolieren, um Tests unabhängig und wiederholbar zu machen._
-
-- Data-Driven Testing
-
-    _Tests werden mit unterschiedlichen Datensätzen ausgeführt, um verschiedene Szenarien abzudecken und die Robustheit der Anwendung sicherzustellen._
 
 - Continuous Integration (CI) und Continuous Deployment (CD)
 
