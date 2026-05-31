@@ -31,14 +31,20 @@ package io.github.andichrist.structural.flyweight;
  */
 public class Main {
   public static void main(String[] args) {
-    TreeType oakType = new ConcreteTreeType("Oak", "Green");
-    TreeType pineType = new ConcreteTreeType("Pine", "Green");
+    TreeTypeFactory factory = new TreeTypeFactory();
 
-    TreeInfo tree1Info = new TreeInfo(10, 20);
-    TreeInfo tree2Info = new TreeInfo(30, 40);
+    // Zwei Eichen an verschiedenen Positionen: gleicher intrinsischer Zustand
+    // -> dasselbe Fliegengewicht wird geteilt, nur der extrinsische Zustand (Position) variiert
+    TreeType oak1 = factory.getTreeType("Oak", "Green");
+    TreeType oak2 = factory.getTreeType("Oak", "Green");
+    TreeType pine = factory.getTreeType("Pine", "Green");
 
-    // Erstelle zwei Bäume mit gleichen Eigenschaften (Fliegengewichte werden geteilt)
-    oakType.display(tree1Info);
-    pineType.display(tree2Info);
+    oak1.display(new TreeInfo(10, 20));
+    oak2.display(new TreeInfo(30, 40));
+    pine.display(new TreeInfo(50, 60));
+
+    // Nachweis, dass das Fliegengewicht wirklich geteilt wird
+    System.out.println("oak1 == oak2: " + (oak1 == oak2));        // true
+    System.out.println("Erzeugte Fliegengewichte: " + factory.createdTypes()); // 2 (Oak, Pine)
   }
 }

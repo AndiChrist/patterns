@@ -13,6 +13,6 @@ public class ConcreteTreeType implements TreeType {
 
   @Override
   public void display(TreeInfo info) {
-    System.out.println("Tree Type: " + name + ", Color: " + color + ", Location: " + info.getLocationX() + "/" + info.getLocationY());
+    System.out.println("Tree Type: " + name + ", Color: " + color + ", Location: " + info.locationX() + "/" + info.locationY());
   }
 }

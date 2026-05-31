@@ -1,5 +1,6 @@
 package io.github.andichrist.other.connectionPool;
 
+import java.lang.reflect.Proxy;
 import java.sql.Connection;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -35,18 +36,20 @@ import java.util.Queue;
  müssen.
  */
 public class ConnectionPool {
-  private Queue<Connection> availableConnections;
-  private int maxConnections;
+  private final Queue<Connection> availableConnections = new LinkedList<>();
+  private final int maxConnections;
 
   public ConnectionPool(int maxConnections) {
     this.maxConnections = maxConnections;
-    availableConnections = new LinkedList<>();
-    // Hier initialisiert man maxConnections Verbindungen und fügt sie zur Warteschlange hinzu
+    // maxConnections Verbindungen im Voraus öffnen und in den Pool legen
+    for (int i = 1; i <= maxConnections; i++) {
+      availableConnections.offer(createConnection(i));
+    }
   }
 
   public synchronized Connection getConnection() {
     if (availableConnections.isEmpty()) {
-      // Hier könnten neue Verbindungen erstellt werden, falls der Pool leer ist
+      throw new IllegalStateException("Keine freie Verbindung im Pool verfügbar");
     }
     return availableConnections.poll();
   }
@@ -54,8 +57,26 @@ public class ConnectionPool {
   public synchronized void releaseConnection(Connection connection) {
     if (availableConnections.size() < maxConnections) {
       availableConnections.offer(connection);
-    } else {
-      // Hier könnte die Verbindung geschlossen werden, da der Pool bereits voll ist
     }
+    // sonst: Pool ist bereits voll -> Verbindung würde hier geschlossen/verworfen
+  }
+
+  public synchronized int availableConnections() {
+    return availableConnections.size();
+  }
+
+  // Erzeugt eine Dummy-Verbindung über einen dynamischen Proxy (java.sql.Connection ist ein
+  // Interface), damit das Beispiel ohne echte Datenbank lauffähig ist.
+  private static Connection createConnection(int id) {
+    return (Connection) Proxy.newProxyInstance(
+        Connection.class.getClassLoader(),
+        new Class<?>[]{Connection.class},
+        (proxy, method, args) -> switch (method.getName()) {
+          case "toString" -> "DummyConnection#" + id;
+          case "hashCode" -> System.identityHashCode(proxy);
+          case "equals" -> proxy == args[0];
+          case "isClosed" -> false;
+          default -> null;
+        });
   }
 }

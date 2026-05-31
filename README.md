@@ -12,8 +12,9 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 
 ## Strukturmuster (structural design patterns)
 
-- ⭐️ [Klassenadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter)
-- ⭐️ [Objektadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter2)
+- ⭐️ [Objektadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter)
+- ⭐️ [Klassenadapter (Adapter)](patterns/src/main/java/io/github/andichrist/structural/adapter2)
+- [Adapter via EventHandler (reflektiver Proxy)](patterns/src/main/java/io/github/andichrist/structural/adapter3)
 - ⭐️ [Brücke (Bridge pattern)](patterns/src/main/java/io/github/andichrist/structural/bridge)
 - ⭐️ [Dekorierer (Decorator)](patterns/src/main/java/io/github/andichrist/structural/decorator)
 - ⭐️ [Fassade (Facade)](patterns/src/main/java/io/github/andichrist/structural/facade)
@@ -56,7 +57,6 @@ Eine kleine Sammlung von Entwurfsmustern, für meinen Hausgebrauch.
 - 🛟 [Row Data Gateway](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/rowDataGateway)
 - 🛟 [Identity Map](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityMap)
 - 🛟 [Identity Field](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/identityField)
-- 🛟 Dependent Mapping
 - 🛟 [Embedded Value](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/embeddedValue)
 - 🛟 [Serialized LOB](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/serializedLOB)
 - 🛟 [Inheritance Mapper](patterns/src/main/java/io/github/andichrist/objectRelationalMapping/inheritanceMapper)

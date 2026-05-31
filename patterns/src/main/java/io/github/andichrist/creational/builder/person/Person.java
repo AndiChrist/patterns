@@ -28,7 +28,7 @@ public record Person(String firstName, String lastName, LocalDate dateOfBirth) {
     private LocalDate dateOfBirth;
 
     private PersonBuilder(String firstName, String lastName) {
-      this.firstName = requireNonNull(firstName, "firstName cannot be null");;
+      this.firstName = requireNonNull(firstName, "firstName cannot be null");
       this.lastName = requireNonNull(lastName, "lastName cannot be null");
     }
 

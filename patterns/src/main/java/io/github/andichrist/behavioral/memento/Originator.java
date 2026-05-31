@@ -13,7 +13,7 @@ public class Originator {
   }
 
   public void restoreFromMemento(Memento memento) {
-    state = memento.getState();
+    state = memento.state();
   }
 
   public String getState() {
